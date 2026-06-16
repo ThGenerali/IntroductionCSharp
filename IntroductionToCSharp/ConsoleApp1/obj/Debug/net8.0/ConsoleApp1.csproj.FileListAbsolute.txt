@@ -1,0 +1,14 @@
+C:\Estudos\CodeAcademy\IntroductionToCSharp\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+C:\Estudos\CodeAcademy\IntroductionToCSharp\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
+C:\Estudos\CodeAcademy\IntroductionToCSharp\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+C:\Estudos\CodeAcademy\IntroductionToCSharp\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+C:\Estudos\CodeAcademy\IntroductionToCSharp\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.pdb
+C:\Estudos\CodeAcademy\IntroductionToCSharp\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudos\CodeAcademy\IntroductionToCSharp\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Estudos\CodeAcademy\IntroductionToCSharp\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+C:\Estudos\CodeAcademy\IntroductionToCSharp\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Estudos\CodeAcademy\IntroductionToCSharp\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.dll
+C:\Estudos\CodeAcademy\IntroductionToCSharp\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleApp1.dll
+C:\Estudos\CodeAcademy\IntroductionToCSharp\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
+C:\Estudos\CodeAcademy\IntroductionToCSharp\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
+C:\Estudos\CodeAcademy\IntroductionToCSharp\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
