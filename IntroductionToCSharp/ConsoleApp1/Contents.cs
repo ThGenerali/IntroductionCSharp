@@ -8,17 +8,20 @@ namespace ConsoleApp1
 {
     public class Contents
     {
-        public static void consoleCommands()
+        public static void consoleCommandsContent()
         {
-            Console.WriteLine("Hello, World!"); // is a comnmand that prints text to a console
-            string input = Console.ReadLine(); // This command captures which type you declare in a variable that a user types into the console 
+            Console.WriteLine("Hello, World!" +
+                "\n Console.WriteLine(); - is a comnmand that prints text to a console");
+            string input = Console.ReadLine();
+            Console.WriteLine("Console.ReadLine This command captures which type you declare in a variable that a user types into the console." +
+                "\n The data this command gets is: " + input);
         }
-        public static void comments()
+        public static void commentsContent()
         {
             Console.WriteLine("Comments are lines of code that are ignored by your computer; they’re intended to be read by developers." +
                 "\nUse '//' for short, one-line comments and '/*'-beginning '*/'-final for anything longer");
         }
-        public static void dataTypesAndVariasbles()
+        public static void dataTypesAndVariasblesContent()
         {
             Console.WriteLine(@"
 Data types represent the different types of information that we can use in our programs and how they should be used.
@@ -68,6 +71,47 @@ Converting Data Types:
         explicit conversion: requires a cast operator to convert a data type into another one. If we do want to convert a double to an int, we could use the operator (int).
     It’s also possible to convert data types using built-in methods. For most data types, there is a Convert.ToX() method, like Convert.ToString() and Convert.ToDouble(). For a full list of Convert class built-in methods
 ");
+        }
+
+        public static void numbersAndOperatorsContent()
+        {
+            Console.WriteLine("its me!");
+        }
+        public static void stringsContent()
+        {
+            Console.WriteLine("its me!");
+        }
+        public static void logicContent()
+        {
+            Console.WriteLine("its me!");
+        }
+        public static void conditionalsContent()
+        {
+            Console.WriteLine("its me!");
+        }
+        public static void arraysContent()
+        {
+            Console.WriteLine("its me!");
+        }
+        public static void loopsContent()
+        {
+            Console.WriteLine("its me!");
+        }
+        public static void listsContent()
+        {
+            Console.WriteLine("its me!");
+        }
+        public static void methodsContent()
+        {
+            Console.WriteLine("its me!");
+        }
+        public static void abstractionContent()
+        {
+            Console.WriteLine("its me!");
+        }
+        public static void encapsulationContent()
+        {
+            Console.WriteLine("its me!");
         }
     }
 }
