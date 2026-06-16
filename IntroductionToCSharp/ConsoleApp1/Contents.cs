@@ -75,11 +75,106 @@ Converting Data Types:
 
         public static void numbersAndOperatorsContent()
         {
-            Console.WriteLine("its me!");
+            Console.WriteLine(@"
+Numerical Data Types
+    Int:
+        An int is a whole integer value, like 4, 100, or -2349. They are for counting individual units of things.
+    Decimal and Double:
+        If we need to use a decimal value, we have a few options: float, double, and decimal.
+        A double is usually the best choice of the three because it is more precise than a float, but faster to process than a decimal. However, for financial applications, be sure to use a decimal, as it is the most precise.
+        To declare a decimal variable you have to put the letter 'm' at the final of the number.
+        To declare a float variable you have to put the letter 'f' at the final of numbe.
+
+Arithmetic Operators
+    Are expressions to use with numerical data.
+    Arithmetic operators include:
+        addition +
+        subtraction -
+        multiplication *
+        division /
+    We can use these symbols to perform operations on numbers and create new values.
+    when two different numerical types are used with an arithmetic operator, the result will always be of the type that is more precise.
+    C# follows a specific order of operations to determine which operator(s) should be assessed first when multiple operators are used in a single expression. In terms of arithmetic operators, the order is:
+        1- Parentheses: () — Operators within parentheses will be assessed before those outside parentheses. If one set of parentheses is nested within another, the nested group will be assessed before the outer group.
+        2- Multiplicative: *, /, % — % is the modulo operator, which we will cover later in this lesson.
+        3- Additive: +, -
+
+Operator Shortcuts
+    C# has a shorthand syntax for adding 1 to an existing variable, ++, called the increment operator. We can also do the same with the subtraction symbol --, called the decrement operator.
+    When you want to any expressions with 2 or more to an existing variable you use the compound assignment operators ('+=', '-=', '*=', and '/='.) 'apple += 3;'.
+
+Modulo
+    One arithmetic operator that we haven’t covered yet is modulo. A modulo returns a remainder, the value left over when we divide a number by another number.
+    Modulo uses the % symbol.
+
+Built-In Methods
+    There are several built-in methods that we can use to manipulate numerical data and perform more complex mathematical calculations:
+        Math.Abs() — Finds the absolute value of a number. Math.Abs(-5) returns 5.
+        Math.Sqrt() — Finds the square root of a given double. Example: Math.Sqrt(16) returns 4.
+        Math.Floor() — Rounds the given double or decimal down to the nearest whole number. Example: Math.Floor(8.65) returns 8.
+        Math.Ceiling() — The counterpart of Math.Floor(), rounds a given double or decimal up to the nearest whole number. Example: Math.Ceiling(8.65) returns 9.
+        Math.Min() — Returns the smaller of two numbers of the same type. Example: Math.Min(39, 12) returns 12.
+        Math.Max() — The counterpart of Math.Min(), returns the larger of two numbers of the same type. Example: Math.Max(39, 12) returns 39.
+
+    We can combine multiple arithmetic methods by nesting them within one another:
+        'Math.Min(Math.Abs(-10), Math.Abs(8)); // 8'
+");
         }
         public static void stringsContent()
         {
-            Console.WriteLine("its me!");
+            Console.WriteLine(@"
+Building Strings
+    A string is a group of characters surrounded by quotation marks.
+    Escape Character Sequences:
+        An escape sequence places a backslash (\) before the inner quotation marks so the program doesn’t read them accidentally as the end of the sequence.
+        To make a new line, use the character combination \n.
+
+String Concatenation
+    String concatenation is when we combine strings using the addition symbol (+), literally adding one string to another.
+    If we want to concatenate a string with something that is another data type, C# will implicitly convert that value to a string.
+    Make sure you include spaces and proper punctuation so that when it prints out, your variable strings are not squished between the rest of the statement. Notice how we must create a one-character string at the end to include a period.
+
+String Interpolation
+    string interpolation, which enables us to insert our variable values and expressions in the middle of a string, without needing to consider spaces and punctuation separately.
+    Notice how we just have one string, which we prepend with the dollar sign symbol $
+    'Console.WriteLine($\""Your favorite musician is {yourFaveMusician} and mine is {myFaveMusician}.\"");'
+
+Get Info About Strings
+    In addition to containing the value of a piece of text, strings also include information about themselves. It can be helpful to know these properties when working with strings.
+    
+    Length:
+        Since strings are composed of a set of characters, we can find out how many characters exist in a string with the .Length method.
+        'userTweet.Length; // Returns the length of the tweet'
+    
+    IndexOf:
+        We can also find the position of a specific character or substring using .IndexOf(). This method is useful for checking if something exists in a string.
+        Positions start at 0.
+        Since positioning starts at 0, the second thing in the string will return a 1. If it does not exist in the string, the method will return a -1. If we pass it an empty string, it will return 0. If it occurs more than once, it will return the first instance.
+        'string word = ""radio"";
+        word.IndexOf(""a""); // Returns 1'
+
+Get Parts of Strings
+    We can also use built-in .NET methods to grab parts of strings or specific characters in a string.
+    Substring:
+        .Substring() grabs part of a string using the specified character position, continues until the end of the string, and then returns a new string.
+        'string plantName = ""Cactaceae, Cactus""; 
+         int charPosition = plantName.IndexOf(""Cactus""); // Returns 11
+         string commonName = plantName.Substring(charPosition); // Returns Cactus'
+        .Substring() is useful if we only want to use part of a string but keep the original data intact.
+        We can also pass .Substring() a second argument, which will determine the number of characters in the resulting substring.
+
+    Bracket Notation:
+        Bracket notation is a style of syntax that uses brackets [] and an integer value to identify a particular value in a collection.
+        'string plantName = ""Cactaceae, Cactus"";
+        int charPosition = plantName.IndexOf(""u""); // Returns 15
+        char u = plantName[charPosition]; // Returns u'
+
+Manipulate Strings
+    There are also built-in .NET methods that we can use to manipulate text data.
+    ToUpper, ToLower:
+        These methods are useful if we want to make our text to be all capitalized or all lowercase, respectively.
+
+");         
         }
         public static void logicContent()
         {

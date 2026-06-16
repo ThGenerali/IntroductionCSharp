@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Estudos\\CodeAcademy\\IntroductionToCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2039A699-51BE-4F3C-8187-9C0C3CC4E7DE}|ConsoleApp1\\ConsoleApp1.csproj|c:\\estudos\\codeacademy\\introductiontocsharp\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2039A699-51BE-4F3C-8187-9C0C3CC4E7DE}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2039A699-51BE-4F3C-8187-9C0C3CC4E7DE}|ConsoleApp1\\ConsoleApp1.csproj|c:\\estudos\\codeacademy\\introductiontocsharp\\consoleapp1\\contents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2039A699-51BE-4F3C-8187-9C0C3CC4E7DE}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\contents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Contents.cs",
               "DocumentMoniker": "C:\\Estudos\\CodeAcademy\\IntroductionToCSharp\\ConsoleApp1\\Contents.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Contents.cs",
               "ToolTip": "C:\\Estudos\\CodeAcademy\\IntroductionToCSharp\\ConsoleApp1\\Contents.cs",
               "RelativeToolTip": "ConsoleApp1\\Contents.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAAFYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAALIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-16T13:24:21.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Estudos\\CodeAcademy\\IntroductionToCSharp\\ConsoleApp1\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "C:\\Estudos\\CodeAcademy\\IntroductionToCSharp\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T13:23:54.648Z",
               "EditorCaption": ""
             }
           ]
