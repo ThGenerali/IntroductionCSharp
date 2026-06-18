@@ -178,15 +178,56 @@ Manipulate Strings
         }
         public static void logicContent()
         {
-            Console.WriteLine("its me!");
+            Console.WriteLine(@"
+Logic in C#
+    Boolean logic is based on evaluating true or false values. Computers use binary logic by turning on and off electric circuits, where “on” equals true and “off” equals false.
+    Boolean Data Types:
+        In C#, we can represent Boolean values using the bool data type.
+    
+    Equality Operators:
+        Equality operator '==': evaluates to true if the value before == is equal to the value after the operator.
+        Inequality operator '!=': evaluates to true if the 2 values are not equal
+
+    Comparison Operators:
+        comparison operators allow us to create Boolean expressions, but instead of equality, they evaluate 2 values and the relationship between them. Comparison operators include:
+            Less than '<': evaluates to true if the first value is less than the second value.
+            Greater than '>': evaluates to true if the first value is greater than the value to the right.
+            Less than or equal to '<=': evaluates to true if the first value is less than or equal to the second value.
+            Greater than or equal to '>=': evaluates to true if the first value is greater than or equal to the second value.
+    
+    Logical Operators:
+        Logical operators, also known as Boolean operators, can be used to create Boolean expressions.
+        Logical operators include:
+            AND '&&': The expression will evaluate to true only if both expressions evaluate to true. Otherwise, it will evaluate to false.
+            OR '||': The expression will evaluate to true if at least one of the expressions evaluates to true. Otherwise, it will evaluate to false.
+            NOT '!': Evaluates to the opposite of the expression it is applied to. A true expression will evaluate to false, and a false expression will evaluate to true.
+");
         }
         public static void conditionalsContent()
         {
-            Console.WriteLine("its me!");
+            Console.WriteLine(@"
+Conditional Statements
+    We will need our programs to be able to make decisions based on different conditions. 
+    The order in which computer programs execute a set of instructions is known as control flow. 
+    Control structures to change what instructions we execute based on conditions we define.
+    structures that use Boolean logic to control the flow of our programs, including:
+        if statements
+        if/else statements.
+        else if statements.
+        switch statements.
+        Ternary operators.
+    Ternary Operators:
+        ________________IF____________________?__YES___:__NO_____;
+        string movement = (color == ""green"") ? ""go"" : ""stop"";
+    ");
         }
         public static void arraysContent()
         {
-            Console.WriteLine("its me!");
+            Console.WriteLine(@"
+Arrays
+                     
+
+");
         }
         public static void loopsContent()
         {
