@@ -431,7 +431,70 @@ Calling Methods
      {
          return a + b;
      }'
+
+    Methods Parameters:
+        Parameters are variables that are defined in the method signature and are used to pass data into the method. We can define multiple parameters by separating them with commas.
+        'public static void Greet(string name, int age)
+         {
+             Console.WriteLine($""Hello, {name}! You are {age} years old."");
+         }'
+        We can call this method by passing in the appropriate arguments:
+        'Greet(""Alice"", 30);'
     
+    Return Statement:
+        The return statement is used to exit a method and optionally return a value. If a method has a return type other than void, we must include a return statement that returns a value of the specified type.
+        'public static int Multiply(int a, int b)
+         {
+             return a * b;
+         }'
+        We can call this method and capture the returned value:
+        'int result = Multiply(3, 4); // result will be 12
+
+    Method Overloading:
+        Method overloading allows us to define multiple methods with the same name but different parameter lists. The compiler determines which method to call based on the number and types of arguments passed.
+        'public static int Add(int a, int b)
+         {
+             return a + b;
+         }
+         public static double Add(double a, double b)
+         {
+             return a + b;
+         }'
+        We can call the appropriate Add method based on the argument types:
+        'int sumInt = Add(3, 4); // Calls the int version
+         double sumDouble = Add(3.5, 4.2); // Calls the double version
+
+    Out parameters:
+        Out parameters allow us to return multiple values from a method. We can define an out parameter by using the out keyword in the method signature and when calling the method.
+        'public static void GetCoordinates(out int x, out int y)
+         {
+             x = 10;
+             y = 20;
+         }'
+        We can call this method and capture the out parameters:
+        'int x, y;
+         GetCoordinates(out x, out y); // x will be 10 and y will be 20
+         Console.WriteLine($""Coordinates: ({x}, {y})"");
+
+    Optional Parameters:
+        Optional parameters allow us to define default values for parameters in a method. If the caller does not provide a value for an optional parameter, the default value will be used.
+        'public static void Greet(string name, string greeting = ""Hello"")
+         {
+             Console.WriteLine($""{greeting}, {name}!"");
+         }'
+        We can call this method with or without the optional parameter:
+        'Greet(""Alice""); // Uses default greeting
+         Greet(""Bob"", ""Hi""); // Uses provided greeting
+
+    Named Arguments:
+        Named arguments allow us to specify the values of parameters by name when calling a method. This can improve readability and allows us to provide arguments in any order.
+        'public static void Greet(string name, string greeting)
+         {
+             Console.WriteLine($""{greeting}, {name}!"");
+         }'
+        We can call this method using named arguments:
+        'Greet(greeting: ""Hi"", name: ""Alice"");
+        We can also mix named arguments with positional arguments, but positional arguments must come before named arguments.
 
 ");
         }
